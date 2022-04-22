@@ -1,0 +1,294 @@
+{
+    "dismissed": [],
+    "installed": {
+        "ArcWelderPlugin": {
+            "filename": "/home/ip/.cache/cura/4.13/cura_packages/ArcWelderPlugin.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Converts multiple subsequent G0/G1 moves to G2/G3 arcs. This reduces the number of gcode commands necessary to make curved movements, thus potentially removing stutter caused by buffer under-runs in the 3d printer controller.\n\nThis plugin uses ArcWelder by @FormerLurker: https://github.com/FormerLurker/ArcWelderLib\n\nThe plugin adds several settings to the \"Special Modes\" category in Cura. The \"Arc Welder\" setting needs to be checked to enable ArcWelder processing. See the plugin website for a more thorough description of the settings.\n\nThe development of this plugin can be sponsored via Github Sponsors (https://github.com/sponsors/fieldofview) or Paypal (https://www.paypal.me/fieldofview)",
+                "display_name": "Arc Welder",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "ArcWelderPlugin",
+                "package_type": "plugin",
+                "package_version": "3.5.2",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.0.0",
+                "website": "https://github.com/fieldOfView/Cura-ArcWelderPlugin"
+            }
+        },
+        "CalibrationShapes": {
+            "filename": "/home/ip/.cache/cura/4.13/cura_packages/CalibrationShapes.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "This plugin adds a menu to create some basic shapes to the scene (cube, cylinder, tube, sphere) and standard test parts. \n\nYou can add standard test / calibration part :\n- Calibration Cube XYZ\n- PLA TempTower 220 - 180\u00b0C\n- PLA TempTower 220 - 190\u00b0C\n- PLA+ TempTower 230 - 200\u00b0C\n- ABS TempTower 250 - 210\u00b0C\n- PETG TempTower 260 - 230\u00b0C\n- Acceleration Tower\n- Retract Tower\n- A XY calibration Test\n- Retract Test part\n- Bridge Spiral Test\n- Thin Wall Test\n- Overhang Test\n- Flow Tower Test\n- Flow Test\n- Multi Flow Test\n- Tolerance Test\n- Support Test\n- Dimensional Accuracy Test\n- Linear Pressure Advance Tower\n- Bed Level Calibration Test\n\nAnd Multi-Extruder part :\n- Extruder Offset Calibration\n- Calibration Cube bi-color\n- Cube bi-color\n\n+ 4 postprocessing scripts",
+                "display_name": "Calibration Shapes",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CalibrationShapes",
+                "package_type": "plugin",
+                "package_version": "1.7.0",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.8.0",
+                "website": "https://github.com/5axes/Calibration-Shapes"
+            }
+        },
+        "CustomSupportCylinder": {
+            "filename": "/home/ip/.cache/cura/4.9/cura_packages/CustomSupportCylinder.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "A Cura plugin  to add 6 types of custom supports :\n- Cylindrical\n- Tube\n- Cube\n- Abutment\n- Freeform ( Geometry can be defined by your own STL  file)\n           - Cross\n           - Section\n           - Pillar\n           - Bridge\n           - Arch Buttress  (Arc boutant)\n           - Custom\n- Customized ( Definition with two selected points )",
+                "display_name": "Cylindric Custom Support",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CustomSupportCylinder",
+                "package_type": "plugin",
+                "package_version": "2.5.5",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.4.0",
+                "website": "https://github.com/5axes/CustomSupportCylinder"
+            }
+        },
+        "ImportExportProfiles": {
+            "filename": "/home/ip/.cache/cura/4.9/cura_packages/ImportExportProfiles.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "This plugin adds tools related to import / merge profiles under CSV format. Could be used to copy your settings from a printer to an other one, even if they are not compatible.",
+                "display_name": " Import Export CSV Profiles",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "ImportExportProfiles",
+                "package_type": "plugin",
+                "package_version": "1.0.7",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.4.0",
+                "website": "https://github.com/5axes/ImportExportProfiles"
+            }
+        },
+        "MaterialSettingsPlugin": {
+            "filename": "/home/ip/.cache/cura/4.13/cura_packages/MaterialSettingsPlugin.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Lets the user select which print settings are available on the Materials pane of the preferences.\n\nThis plugin does not change the fact that a setting value specified in the \"sidebar\" settings, or in a quality profile, always overrides the value set for the material.",
+                "display_name": "Material Settings",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "MaterialSettingsPlugin",
+                "package_type": "plugin",
+                "package_version": "3.5.3",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.0.0",
+                "website": "https://github.com/fieldOfView/Cura-MaterialSettingsPlugin/"
+            }
+        },
+        "OrientationPlugin": {
+            "filename": "/home/ip/.cache/cura/4.13/cura_packages/OrientationPlugin.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "nallath",
+                    "display_name": "nallath",
+                    "email": "j.vankessel@ultimaker.com",
+                    "website": "http://www.github.com/nallath"
+                },
+                "description": "Extension that enables the automatic orientation of models to reduce the need for support. This wraps the MeshTweaker by Christoph Schranz, so it can be easily used in Cura. ",
+                "display_name": "Auto-Orientation",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "OrientationPlugin",
+                "package_type": "plugin",
+                "package_version": "3.6.0",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.0.0",
+                "website": "https://github.com/nallath/CuraOrientationPlugin"
+            }
+        },
+        "PrinterSettingsPlugin": {
+            "filename": "/home/ip/.cache/cura/4.13/cura_packages/PrinterSettingsPlugin.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Adds printer settings to the sidebar \n\nNB: Changes made in the sidebar override values set in the machine definition and end up in quality profiles. It is not recommended to use this plugin unless you understand the implications: USE AT YOUR OWN RISK.",
+                "display_name": "Printer Settings",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "PrinterSettingsPlugin",
+                "package_type": "plugin",
+                "package_version": "3.5.4",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.0.0",
+                "website": "https://github.com/fieldOfView/Cura-PrinterSettingsPlugin"
+            }
+        },
+        "ProfilAnalyser": {
+            "filename": "/home/ip/.cache/cura/4.13/cura_packages/ProfilAnalyser.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "Plugin to analyse Cura profils configuration much easier. Export the different profils in HTML page",
+                "display_name": "Profil Analyser",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "ProfilAnalyser",
+                "package_type": "plugin",
+                "package_version": "1.1.3",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.6.0",
+                "website": "https://github.com/5axes/ProfilAnalyser"
+            }
+        },
+        "SettingsGuide2": {
+            "filename": "/home/ip/.cache/cura/4.13/cura_packages/SettingsGuide2.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "Ghostkeeper",
+                    "display_name": "Ghostkeeper",
+                    "email": "rubend@tutanota.com",
+                    "website": "https://github.com/Ghostkeeper"
+                },
+                "description": "A guide on what settings do and how to use them.\nRight-click on a setting to access the guide.",
+                "display_name": "Settings Guide",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "SettingsGuide2",
+                "package_type": "plugin",
+                "package_version": "2.8.1",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.0.0",
+                "website": "https://github.com/Ghostkeeper/SettingsGuide"
+            }
+        },
+        "SidebarGUIPlugin": {
+            "filename": "/home/ip/.cache/cura/4.13/cura_packages/SidebarGUIPlugin.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Provides an alternative interface which restores the sidebar.\n\nThe development of this plugin can be sponsored via Github Sponsors (https://github.com/sponsors/fieldofview) or Paypal (https://www.paypal.me/fieldofview)",
+                "display_name": "Sidebar GUI",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "SidebarGUIPlugin",
+                "package_type": "plugin",
+                "package_version": "4.2.2",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.9.0",
+                "website": "https://github.com/fieldOfView/Cura-SidebarGUIPlugin"
+            }
+        },
+        "TabAntiWarping": {
+            "filename": "/home/ip/.cache/cura/4.9/cura_packages/TabAntiWarping.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "Add elements as rounded Tab to limit warping effect in print corner.\nOption to create a Capsule instead a Tab\nOption to create a Tab with several layer height\n\nLimited by the possibility to use just a global : Support X/Y Distance",
+                "display_name": "TabAntiWarping",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "TabAntiWarping",
+                "package_type": "plugin",
+                "package_version": "1.2.1",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.5.0",
+                "website": "https://github.com/5axes/TabAntiWarping"
+            }
+        },
+        "ThingiBrowser": {
+            "filename": "/home/ip/.cache/cura/4.13/cura_packages/ThingiBrowser.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "ChrisTerBekeAuthor",
+                    "display_name": "Chris ter Beke",
+                    "email": "info@christerbeke.com",
+                    "website": "https://christerbeke.com"
+                },
+                "description": "Search and import 3D files from popular online repositories directly in Cura.\n\nThis plugin is not affiliated with Thingiverse or MyMiniFactory.",
+                "display_name": "ThingiBrowser",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "ThingiBrowser",
+                "package_type": "plugin",
+                "package_version": "2.2.2",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.7.0",
+                "website": "https://github.com/ChrisTerBeke/ThingiBrowser"
+            }
+        },
+        "UniversalCuraSettings": {
+            "filename": "/home/ip/.cache/cura/4.13/cura_packages/UniversalCuraSettings.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "Universal Cura Settings. 9 types of adjustment to define recommended settings for your current Cura configuration.\n \n- standard\n- bed adhesion\n- warping\n- top surface\n- mechanical\n- small part\n- figurine\n- prototype\n- support\n- vase",
+                "display_name": "Universal Cura Settings",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "UniversalCuraSettings",
+                "package_type": "plugin",
+                "package_version": "0.0.18",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.8.0",
+                "website": "https://github.com/5axes/UniversalCuraSettings"
+            }
+        }
+    },
+    "to_install": {},
+    "to_remove": [],
+    "version": 1
+}
